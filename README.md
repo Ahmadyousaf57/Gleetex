@@ -1,4 +1,4 @@
-# AHMURY — Luxury E-Commerce Platform
+# Gleetex — Luxury E-Commerce Platform
 
 Full-stack luxury e-commerce website with admin panel.
 
@@ -10,7 +10,7 @@ Full-stack luxury e-commerce website with admin panel.
 
 ## Project Structure
 ```
-Ahmury/
+Gleetex/
 ├── backend/          # Express API
 │   └── src/
 │       ├── config/   # DB connection
