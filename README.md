@@ -1,89 +1,90 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/NeoPay-Pro-blue?style=for-the-badge&logo=appveyor" alt="NeoPay Pro Logo">
-  <h1>🚀 NeoPay Pro - Next-Generation FinTech Wallet</h1>
-  <p><strong>A Premium Digital Wallet & Payment Gateway Platform</strong></p>
+  <img src="https://img.shields.io/badge/Gleetex-Luxury_Commerce-black?style=for-the-badge&logo=shopify" alt="Gleetex Logo">
+  <h1>✨ Gleetex</h1>
+  <p><strong>Premium Full-Stack Luxury E-Commerce Platform</strong></p>
 
-  [![Node.js](https://img.shields.io/badge/Node.js-18.x-green.svg?style=flat-square&logo=node.js)](https://nodejs.org/)
-  [![Express.js](https://img.shields.io/badge/Express.js-5.2.1-lightgrey.svg?style=flat-square&logo=express)](https://expressjs.com/)
-  [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15.x-blue.svg?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
-  [![Vanilla JS](https://img.shields.io/badge/Vanilla_JS-ES6-yellow.svg?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-  [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+  [![React](https://img.shields.io/badge/React-18.x-61DAFB.svg?style=flat-square&logo=react)](https://reactjs.org/)
+  [![Node.js](https://img.shields.io/badge/Node.js-18.x-339933.svg?style=flat-square&logo=node.js)](https://nodejs.org/)
+  [![Express.js](https://img.shields.io/badge/Express.js-Backend-lightgrey.svg?style=flat-square&logo=express)](https://expressjs.com/)
+  [![MongoDB](https://img.shields.io/badge/MongoDB-Mongoose-47A248.svg?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+  [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC.svg?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 </div>
 
 ---
 
 ## 📖 Executive Summary
 
-**NeoPay Pro** is a cutting-edge, ultra-premium FinTech web application designed to redefine the digital banking experience. By merging state-of-the-art UI/UX principles with a robust, highly secure backend, NeoPay Pro delivers a native app-like experience directly within the browser. 
+**Gleetex** is a meticulously crafted, full-stack e-commerce web application designed specifically for the luxury goods market. By combining a highly performant, responsive React frontend with a scalable Node.js backend, Gleetex delivers an unparalleled shopping experience.
 
-Whether you're performing peer-to-peer (P2P) transfers, analyzing financial growth through interactive charts, or seeking help from our integrated AI Support Agent, NeoPay Pro handles it all seamlessly with unparalleled speed and aesthetic precision.
+It features a comprehensive customer-facing storefront and a powerful administrative dashboard, enabling seamless product management, order tracking, and user administration. The project is engineered utilizing modern web development practices including robust state management via Zustand, RESTful API architecture, and secure JWT-based authentication.
 
 ---
 
 ## ✨ Core Features & Capabilities
 
-### 🛡️ Enterprise-Grade Security
-- **Multi-Factor Authentication (MFA):** Mandatory OTP email verification powered by Resend API during registration to prevent bot accounts.
-- **Biometric Authentication:** Modern WebAuthn-inspired fingerprint login mechanism for frictionless, passwordless entry.
-- **Stateless Sessions:** Secure, time-limited JSON Web Tokens (JWT) ensuring all API requests are strictly authenticated and authorized.
-- **Cryptographic Hashing:** Utilization of `bcryptjs` for irreversible password hashing and salting.
+### 🛍️ Customer Experience
+- **Elegant Product Catalog:** Browse premium luxury items with high-resolution image galleries and detailed descriptions.
+- **Dynamic Shopping Cart:** Manage selections smoothly with real-time updates using Zustand state management.
+- **Secure Authentication:** Create accounts and log in securely using JWT (JSON Web Tokens) and bcrypt password hashing.
+- **Order Tracking & History:** Customers can seamlessly track current orders and review past purchase history directly from their personalized dashboard.
+- **Product Reviews:** Authenticated users can leave and read product reviews, fostering a community of trust.
 
-### 💳 Ultimate UI/UX & Design Architecture
-- **Stunning Glassmorphism:** Crafted with advanced CSS properties (`backdrop-filter`, ambient radial gradients, dynamic shadows) to create a translucent, frosted-glass effect.
-- **Interactive 3D Virtual Card:** A masterclass in CSS 3D Transforms (`perspective`, `rotateY`), allowing users to click and flip their card to securely view CVV details.
-- **Fluid Micro-Interactions:** Custom bezier-curve transitions, scalable hover effects, and tactile feedback simulation across all touchpoints (e.g., custom transfer numpad).
-- **Adaptive Theming:** Native-feeling Dark and Light mode toggle that recalculates CSS variables on the fly for optimal viewing in any environment.
+### 🛡️ Administrative Dashboard
+- **Comprehensive Analytics:** A dedicated `/admin` portal displaying high-level metrics and store performance dashboards.
+- **Inventory Management:** Full CRUD (Create, Read, Update, Delete) capabilities for product listings, pricing, and stock levels.
+- **Order Fulfillment:** Admins can view all incoming orders, update shipping statuses, and manage fulfillment workflows.
+- **User Management:** Monitor registered users, handle customer inquiries, and adjust role-based access (e.g., promoting users to Admin).
 
-### 💸 Frictionless Financial Operations
-- **Real-Time P2P Transfers:** Send money instantly. Features a dynamic contact search filtering users by Name, Phone Number, or Unique PSID.
-- **Customized Transfer Numpad:** A bespoke, large-format numeric keypad designed for fast, error-free amount entries.
-- **Actionable Transaction History:** Detailed, categorized transaction ledgers (Income, Subscriptions, Food & Drink) with visually distinct icons and receipts.
-- **Advanced Card Management:** Instant toggles for freezing the card, disabling online payments, or blocking ATM withdrawals.
-
-### 📊 Intelligent Analytics
-- **Dynamic Charting:** Custom-built CSS/JS vertical bar charts visualizing daily expenditures vs. income without relying on heavy third-party libraries.
-- **Expense Summaries:** Quick-glance metrics for total monthly income and total expenses.
-
-### 🤖 Integrated AI Support Bot
-- **Context-Aware Assistance:** A built-in AI Customer Service ChatBot capable of answering queries regarding security, money transfers, account management, and generalized support.
+### ⚡ Technical Highlights
+- **Role-Based Access Control (RBAC):** Strict middleware protecting administrative API routes from unauthorized access.
+- **Responsive UI/UX:** Built with Tailwind CSS, ensuring pixel-perfect layout rendering across mobile, tablet, and desktop devices.
+- **Optimized Data Fetching:** Structured REST API interacting with MongoDB via Mongoose schemas.
 
 ---
 
-## 🛠️ Technical Stack & Architecture
+## 🛠️ Technology Stack
 
-### The Frontend (The "Vanilla" Advantage)
-Instead of relying on heavy frameworks like React or Vue, NeoPay Pro is meticulously engineered using **Vanilla HTML5, CSS3, and ES6+ JavaScript**. This ensures:
-- **Zero Bundle Bloat:** Lightning-fast initial load times.
-- **Direct DOM Manipulation:** Highly optimized and performant animations.
-- **Iconography:** [Phosphor Icons](https://phosphoricons.com/) for lightweight, consistent, and premium scalable vector graphics.
-- **Typography:** Custom `Work Sans` font integration for a clean, geometric, and modern look.
+### Frontend (Client-Side)
+- **Framework:** React.js (via Vite for lightning-fast HMR and building)
+- **Styling:** Tailwind CSS (Utility-first framework for custom, premium aesthetics)
+- **State Management:** Zustand (Lightweight, unopinionated state manager)
+- **HTTP Client:** Axios (For interceptor-based, secure API communication)
 
-### The Backend Engine (Node.js & Express)
-The backend is a robust REST API designed for scale and security:
-- **Framework:** `Express.js` (v5.2.1) providing fast, unopinionated routing and middleware integration.
-- **Database:** `PostgreSQL` interacting via the `pg` pool module. Capable of handling complex relational queries, indexing for fast search, and maintaining transaction integrity.
-- **Mailing Service:** `Resend SDK` replacing legacy SMTP systems for ultra-fast, reliable transactional emails (OTP delivery).
-- **Environment Management:** `dotenv` for strict environment variable parsing, ensuring no secrets are hardcoded.
+### Backend (Server-Side)
+- **Environment:** Node.js
+- **Framework:** Express.js (REST API architecture)
+- **Database:** MongoDB
+- **ODM:** Mongoose (Schema validation and relationship mapping)
+- **Authentication:** jsonwebtoken (JWT) & bcryptjs
 
 ---
 
-## 📁 Comprehensive Project Structure
+## 📁 Project Structure Architecture
 
 ```text
-NEOPAYWeb/
+Gleetex/
 │
-├── backend/
-│   ├── server.js         # Entry point: Express app, middleware, routes, & static serving
-│   ├── db.js             # Database configuration: PostgreSQL Pool & automatic table initialization
-│   ├── seed.js           # Development utility: Seeds database with mock users and transactions
-│   ├── package.json      # Backend dependencies and runtime scripts
-│   └── .env              # Secrets and configurations (Must be created by the user)
+├── backend/               # Core Express.js API
+│   ├── src/
+│   │   ├── config/        # Environment configurations & DB connection logic
+│   │   ├── controllers/   # Route handlers and business logic
+│   │   ├── middleware/    # Auth, Error handling, and RBAC verification
+│   │   ├── models/        # Mongoose Schemas (User, Product, Order)
+│   │   └── routes/        # Express API Route definitions
+│   ├── package.json       # Backend dependencies
+│   └── .env.example       # Example environment variables
 │
-├── wallet.html           # The monolithic Frontend: Contains HTML layout, scoped CSS, and JS logic
-├── package.json          # Root package.json (Dependency tracking)
-├── vercel.json           # Deployment config: Maps backend serverless functions for Vercel
-├── google6a9399bee8f201ee.html # Verification file for Google Search Console
-└── README.md             # Project Documentation (You are here)
+└── frontend/              # React + Vite Client
+    ├── src/
+    │   ├── admin/         # Protected Administrative Dashboard components
+    │   ├── components/    # Reusable UI elements (Buttons, Navbars, Cards)
+    │   ├── pages/         # Public-facing views (Home, Shop, Cart, Profile)
+    │   ├── store/         # Zustand global state definitions
+    │   └── utils/         # Axios instances and helper functions
+    ├── package.json       # Frontend dependencies
+    ├── tailwind.config.js # Custom Tailwind theme definitions
+    └── vite.config.js     # Vite bundler configurations
 ```
 
 ---
@@ -93,116 +94,115 @@ NEOPAYWeb/
 ### 1. Prerequisites
 Ensure you have the following installed:
 - **Node.js** (v18.x or higher)
-- **PostgreSQL** (v14.x or higher, running locally or on a cloud provider like Neon/Supabase)
+- **MongoDB** (Running locally on port `27017` or a MongoDB Atlas connection string)
 - **Git**
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/your-username/neopay-pro.git
-cd neopay-pro
+git clone https://github.com/Ahmadyousaf57/Gleetex.git
+cd Gleetex
 ```
 
-### 3. Install Dependencies
+### 3. Backend Setup
+Navigate to the backend directory, install dependencies, and start the development server.
+
 ```bash
-# Install root/backend dependencies
+cd backend
 npm install
+
+# Create your .env file
+cp .env.example .env
+
+# Start the server
+npm run dev
+# The API will run on http://localhost:5000
 ```
 
-### 4. Environment Variables
-Create a `.env` file in the `backend/` directory (or root, depending on execution) and configure the following:
+### 4. Frontend Setup
+Open a new terminal, navigate to the frontend directory, install dependencies, and start Vite.
 
-```env
-# Server Config
-PORT=5000
-NODE_ENV=development
-FRONTEND_URL=http://localhost:5000
-
-# PostgreSQL Database Config
-PG_HOST=localhost
-PG_DATABASE=neopay
-PG_USER=postgres
-PG_PASSWORD=your_secure_password
-PG_PORT=5432
-
-# Security
-JWT_SECRET=generate_a_strong_random_secret_string
-
-# Email Service (Resend)
-RESEND_API_KEY=re_your_resend_api_key
-```
-
-### 5. Database Initialization
-You do not need to manually create tables. When the server starts, `db.js` automatically connects to PostgreSQL and creates the `users` and `transactions` tables if they do not exist.
-
-### 6. Run the Application
 ```bash
-# Start the server (runs node backend/server.js)
-npm start
+cd frontend
+npm install
+
+# Start the React development server
+npm run dev
+# The App will run on http://localhost:5173
 ```
 
-Visit `http://localhost:5000` in your browser. The Express server acts as both the API provider and the static file host for `wallet.html`.
+### 5. Creating the First Administrator
+To access the Admin panel, you must elevate a standard user account.
+1. Register a new user via the frontend (`http://localhost:5173/register`).
+2. Open your MongoDB shell, MongoDB Compass, or preferred GUI.
+3. Execute the following update command:
+   ```javascript
+   db.users.updateOne(
+     { email: "your@email.com" }, 
+     { $set: { role: "admin" } }
+   )
+   ```
+4. Log back in and navigate to `/admin` to access the dashboard.
 
 ---
 
 ## 📡 API Reference Documentation
 
-### Authentication & Onboarding
-| Method | Endpoint | Payload / Params | Description |
-|--------|----------|------------------|-------------|
-| `POST` | `/api/auth/signup` | `{ username, email, password, biometricKey }` | Hashes password, saves user as unverified, triggers OTP email. |
-| `POST` | `/api/auth/verify-otp`| `{ email, otp }` | Validates OTP. If valid, marks user as verified. |
-| `POST` | `/api/auth/login` | `{ username, password, biometricKey }` | Authenticates via password OR biometric key. Returns JWT token. |
+### Authentication & Users (`/api/auth`)
+| Method | Endpoint | Description | Access |
+|--------|----------|-------------|--------|
+| `POST` | `/register` | Register a new customer account | Public |
+| `POST` | `/login` | Authenticate user and return JWT | Public |
+| `GET`  | `/me` | Fetch current logged-in user profile | Private |
+| `PUT`  | `/profile` | Update user profile information | Private |
 
-### Users & Social
-| Method | Endpoint | Payload / Params | Description |
-|--------|----------|------------------|-------------|
-| `GET`  | `/api/users/search?q=` | Query param: `q` | Performs an `ILIKE` search on usernames, phone numbers, and PSIDs. Limits to 10 results. |
+### Products (`/api/products`)
+| Method | Endpoint | Description | Access |
+|--------|----------|-------------|--------|
+| `GET`  | `/` | Retrieve all products (Supports pagination/filtering) | Public |
+| `GET`  | `/:id` | Retrieve a single product by ID | Public |
+| `POST` | `/` | Create a new luxury product listing | **Admin** |
+| `PUT`  | `/:id` | Update product details or pricing | **Admin** |
+| `DELETE`| `/:id` | Remove a product from the catalog | **Admin** |
+| `POST` | `/:id/reviews`| Submit a customer review and rating | Private |
 
-### Transactions
-| Method | Endpoint | Payload / Params | Description |
-|--------|----------|------------------|-------------|
-| `POST` | `/api/transactions` | `{ sender, receiverName, transferMethod, accountNumber, amount }` | Validates input and logs a new transaction ledger entry. |
+### Orders (`/api/orders`)
+| Method | Endpoint | Description | Access |
+|--------|----------|-------------|--------|
+| `POST` | `/` | Create a new customer order | Private |
+| `GET`  | `/my` | Retrieve all orders for the logged-in user | Private |
+| `GET`  | `/:id` | Retrieve specific order details | Private |
+| `GET`  | `/` | Retrieve ALL system orders | **Admin** |
+| `PUT`  | `/:id/status`| Update order status (e.g., Shipped, Delivered) | **Admin** |
 
-### Utility
-| Method | Endpoint | Payload / Params | Description |
-|--------|----------|------------------|-------------|
-| `POST` | `/api/chat` | `{ message }` | Parses user message and returns a context-aware AI chatbot response. |
-| `GET`  | `/api/health` | None | Returns a 200 OK status along with boolean checks for required environment variables. |
-
----
-
-## 🔮 Future Roadmap
-
-- [ ] **Stripe / Plaid Integration:** Real-world fiat on-ramping and bank account linking.
-- [ ] **WebSockets Integration:** Real-time transaction notifications without manual refresh.
-- [ ] **PWA Support:** Full Progressive Web App manifestation for offline capabilities and native mobile installation.
-- [ ] **Multi-Currency & Crypto:** Support for USD, EUR, and top cryptocurrencies (BTC, ETH, SOL) with real-time exchange rates.
+### Administration (`/api/admin`)
+| Method | Endpoint | Description | Access |
+|--------|----------|-------------|--------|
+| `GET`  | `/dashboard` | Retrieve high-level sales and user metrics | **Admin** |
+| `GET`  | `/users` | Retrieve all registered users | **Admin** |
+| `PUT`  | `/users/:id/role` | Update user role (e.g., promote to Admin) | **Admin** |
+| `DELETE`| `/users/:id` | Delete a user account from the system | **Admin** |
 
 ---
 
 ## 🤝 Contribution Guidelines
 
-We welcome contributions from the community! To contribute:
+We welcome contributions to make Gleetex even better! To contribute:
 
 1. **Fork** the repository.
-2. **Create** a feature branch (`git checkout -b feature/NewFeature`).
-3. **Commit** your changes (`git commit -m 'Add some NewFeature'`).
-4. **Push** to the branch (`git push origin feature/NewFeature`).
+2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`).
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
+4. **Push** to the branch (`git push origin feature/AmazingFeature`).
 5. **Open** a Pull Request detailing your changes.
-
-Ensure your code adheres to the existing styling and includes comments for complex logic.
 
 ---
 
 ## 📄 License & Legal
 
-This project is licensed under the **MIT License**. See the `LICENSE` file for full details. 
-
-*Disclaimer: NeoPay Pro is a demonstration of FinTech engineering and design capabilities. It is not currently licensed to handle real financial assets in production.*
+This project is open-sourced under the **MIT License**. See the `LICENSE` file for full details.
 
 <div align="center">
   <br>
-  <i>Engineered with 💡 and ❤️ for the modern web.</i>
+  <i>Built for the modern web.</i>
   <br>
-  <b>Experience the Future of Digital Payments.</b>
+  <b>Redefining Digital Luxury.</b>
 </div>
